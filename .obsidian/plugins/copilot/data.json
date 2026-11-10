@@ -1,0 +1,812 @@
+{
+  "userId": "a4f7b37e-771f-4f91-b203-96bc7716fc76",
+  "isPaidUser": false,
+  "isPlusUser": false,
+  "entitlementToken": "",
+  "entitlementExpiresAt": 0,
+  "plusLicenseKey": "",
+  "openAIApiKey": "",
+  "openAIOrgId": "",
+  "huggingfaceApiKey": "",
+  "cohereApiKey": "",
+  "anthropicApiKey": "",
+  "googleApiKey": "",
+  "openRouterAiApiKey": "",
+  "xaiApiKey": "",
+  "mistralApiKey": "",
+  "deepseekApiKey": "",
+  "siliconflowApiKey": "",
+  "defaultChainType": "llm_chain",
+  "defaultModelKey": "",
+  "contextTurns": 15,
+  "userSystemPrompt": "",
+  "openAIProxyBaseUrl": "",
+  "stream": true,
+  "copilotFolder": "copilot",
+  "copilotRootHistory": [
+    "copilot"
+  ],
+  "upgradedToV8FromLegacy": false,
+  "defaultSaveFolder": "copilot/copilot-conversations",
+  "defaultConversationTag": "copilot-conversation",
+  "autosaveChat": true,
+  "autoAttachActiveNote": true,
+  "defaultOpenArea": "editor",
+  "defaultSendShortcut": "enter",
+  "customPromptsFolder": "copilot/copilot-custom-prompts",
+  "qaExclusions": "copilot",
+  "qaInclusions": "",
+  "chatNoteContextPath": "",
+  "chatNoteContextTags": [],
+  "debug": false,
+  "maxSourceChunks": 30,
+  "enableInlineCitations": true,
+  "groqApiKey": "",
+  "activeModels": [],
+  "lexicalSearchRamLimit": 100,
+  "promptUsageTimestamps": {},
+  "promptSortStrategy": "timestamp",
+  "chatHistorySortStrategy": "recent",
+  "projectsFolder": "copilot/projects",
+  "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
+  "inlineEditCommands": [],
+  "projectList": [],
+  "lastDismissedVersion": null,
+  "lastShownStartupVersion": "4.0.19",
+  "passMarkdownImages": true,
+  "enableAutonomousAgent": true,
+  "enableCustomPromptTemplating": true,
+  "enableSelfHostMode": false,
+  "enableMiyo": false,
+  "enableMiyoSearchSkill": true,
+  "miyoSearchAll": false,
+  "miyoExtraSearchFolders": [],
+  "miyoSearchMaxResults": 20,
+  "miyoSearchMaxVariants": 2,
+  "relevantNotesLiveUpdate": true,
+  "miyoServerUrl": "",
+  "selfHostSearchProvider": "firecrawl",
+  "firecrawlApiKey": "",
+  "perplexityApiKey": "",
+  "parallelApiKey": "",
+  "exaApiKey": "",
+  "supadataApiKey": "",
+  "enableMiyoDocumentProcessing": true,
+  "enableLexicalBoosts": true,
+  "suggestedDefaultCommands": false,
+  "autonomousAgentEnabledToolIds": [
+    "localSearch",
+    "readNote",
+    "webSearch",
+    "pomodoro",
+    "youtubeTranscription",
+    "writeFile",
+    "editFile",
+    "updateMemory"
+  ],
+  "reasoningEffort": "low",
+  "verbosity": "medium",
+  "memoryFolderName": "copilot/memory",
+  "enableRecentConversations": true,
+  "maxRecentConversations": 30,
+  "enableSavedMemory": true,
+  "quickCommandIncludeNoteContext": true,
+  "autoAcceptEdits": false,
+  "diffViewMode": "split",
+  "userSystemPromptsFolder": "copilot/system-prompts",
+  "defaultSystemPromptTitle": "",
+  "autoCompactThreshold": 128000,
+  "convertedDocOutputFolder": "",
+  "agentMode": {
+    "byok": {},
+    "activeBackend": "codex",
+    "backends": {
+      "codex": {
+        "defaultMode": "auto"
+      },
+      "claude": {
+        "defaultModel": {
+          "baseModelId": "default",
+          "effort": "medium"
+        },
+        "autoModePermission": "auto",
+        "enableThinking": true
+      }
+    },
+    "debugFullFrames": true,
+    "offerFeedbackCards": true,
+    "notificationSound": true,
+    "notificationSoundId": "piano",
+    "welcomeDismissed": false,
+    "skills": {
+      "folder": "copilot/skills",
+      "builtinPreferences": {
+        "copilot-web-search": {
+          "disabled": true
+        },
+        "copilot-web-fetch": {
+          "disabled": true
+        },
+        "obsidian-markdown": {
+          "disabledAgents": [
+            "claude"
+          ]
+        },
+        "obsidian-bases": {
+          "disabledAgents": [
+            "claude"
+          ]
+        },
+        "json-canvas": {
+          "disabledAgents": [
+            "claude",
+            "codex"
+          ]
+        },
+        "obsidian-cli": {
+          "disabledAgents": [
+            "claude",
+            "codex"
+          ]
+        }
+      }
+    },
+    "deviceProfiles": {
+      "f5202697-6cf8-4c7e-9e12-195eeafde320": {
+        "claudeCliPath": "C:\\Users\\FATIMA\\.local\\bin\\claude.exe",
+        "codex": {
+          "binaryPath": "C:\\Users\\FATIMA\\.obsidian-copilot\\codex\\2.2.2\\codex-acp.exe",
+          "binaryVersion": "2.2.2",
+          "binarySource": "managed"
+        },
+        "opencode": {
+          "binaryPath": "C:\\Users\\FATIMA\\.obsidian-copilot\\opencode\\2.0.32\\bin\\opencode.exe",
+          "binaryVersion": "2.0.32",
+          "binarySource": "managed",
+          "probeSessionId": "ses_e40ca9b07ffekUsW7W3ngcVr1r"
+        }
+      }
+    }
+  },
+  "providers": {
+    "12308345-b9a8-44ef-99be-3fcb16794db7": {
+      "providerType": "openai-compatible",
+      "displayName": "OpenCode",
+      "origin": {
+        "kind": "agent",
+        "agentType": "opencode"
+      },
+      "requiresApiKey": false,
+      "providerId": "12308345-b9a8-44ef-99be-3fcb16794db7",
+      "addedAt": 1794209309982,
+      "apiKeyKeychainId": null
+    },
+    "61bd5c2a-3d73-4ccf-a042-c664f6ddc31b": {
+      "providerType": "anthropic",
+      "displayName": "Claude",
+      "origin": {
+        "kind": "agent",
+        "agentType": "claude"
+      },
+      "requiresApiKey": false,
+      "providerId": "61bd5c2a-3d73-4ccf-a042-c664f6ddc31b",
+      "addedAt": 1794258554024,
+      "apiKeyKeychainId": null
+    },
+    "5a6bb9ee-423d-4f72-9505-d1c224eac57b": {
+      "providerType": "openai-compatible",
+      "displayName": "Codex",
+      "origin": {
+        "kind": "agent",
+        "agentType": "codex"
+      },
+      "requiresApiKey": false,
+      "providerId": "5a6bb9ee-423d-4f72-9505-d1c224eac57b",
+      "addedAt": 1794259309441,
+      "apiKeyKeychainId": null
+    }
+  },
+  "configuredModels": [
+    {
+      "providerId": "12308345-b9a8-44ef-99be-3fcb16794db7",
+      "info": {
+        "id": "opencode/beam-free",
+        "displayName": "opencode/Beam Free"
+      },
+      "configuredModelId": "b208c0fe-5811-40ec-b7e8-08be68c61ab6",
+      "configuredAt": 1794209313006
+    },
+    {
+      "providerId": "12308345-b9a8-44ef-99be-3fcb16794db7",
+      "info": {
+        "id": "opencode/big-pickle",
+        "displayName": "opencode/Big Pickle"
+      },
+      "configuredModelId": "9edd0845-cfc0-4603-bdd1-37e3b943e76c",
+      "configuredAt": 1794209313008
+    },
+    {
+      "providerId": "12308345-b9a8-44ef-99be-3fcb16794db7",
+      "info": {
+        "id": "opencode/deepseek-v4.1-flash-free",
+        "displayName": "opencode/DeepSeek V4.1 Flash Free"
+      },
+      "configuredModelId": "ef4d0e48-778f-4790-9d8b-043edacb4cea",
+      "configuredAt": 1794209313009
+    },
+    {
+      "providerId": "12308345-b9a8-44ef-99be-3fcb16794db7",
+      "info": {
+        "id": "opencode/flint-40b-free",
+        "displayName": "opencode/Flint 40B Free"
+      },
+      "configuredModelId": "cea43cce-669b-4bb0-9910-1b1b2cbcd869",
+      "configuredAt": 1794209313009
+    },
+    {
+      "providerId": "12308345-b9a8-44ef-99be-3fcb16794db7",
+      "info": {
+        "id": "opencode/glm-5.3-flash-free",
+        "displayName": "opencode/GLM-5.3-Flash Free"
+      },
+      "configuredModelId": "fd38d1b6-9659-4fb1-b8e3-9d55e46ac621",
+      "configuredAt": 1794209313009
+    },
+    {
+      "providerId": "12308345-b9a8-44ef-99be-3fcb16794db7",
+      "info": {
+        "id": "opencode/iceman-free",
+        "displayName": "opencode/Iceman Free"
+      },
+      "configuredModelId": "7278fb90-2dd7-40eb-a3b0-03adfec1bf57",
+      "configuredAt": 1794209313010
+    },
+    {
+      "providerId": "12308345-b9a8-44ef-99be-3fcb16794db7",
+      "info": {
+        "id": "opencode/inkling-2-small-free",
+        "displayName": "opencode/Inkling 2 Small Free"
+      },
+      "configuredModelId": "a3e77583-a2d4-4b1f-bb7d-c7ddb8851921",
+      "configuredAt": 1794209313010
+    },
+    {
+      "providerId": "12308345-b9a8-44ef-99be-3fcb16794db7",
+      "info": {
+        "id": "opencode/mimo-v2.6-flash-free",
+        "displayName": "opencode/MiMo-V2.6-Flash Free"
+      },
+      "configuredModelId": "c5cf8ea9-1ce2-4857-b526-00a8eea05e97",
+      "configuredAt": 1794209313010
+    },
+    {
+      "providerId": "12308345-b9a8-44ef-99be-3fcb16794db7",
+      "info": {
+        "id": "opencode/nemotron-3.5-lightning-free",
+        "displayName": "opencode/Nemotron 3.5 Lightning Free"
+      },
+      "configuredModelId": "89c73229-ceb8-4ae5-a63d-7fc245884fb1",
+      "configuredAt": 1794209313011
+    },
+    {
+      "providerId": "12308345-b9a8-44ef-99be-3fcb16794db7",
+      "info": {
+        "id": "opencode/nemotron-3.5-super-vl-free",
+        "displayName": "opencode/Nemotron 3.5 Super VL Free"
+      },
+      "configuredModelId": "71f81a05-4a0f-4c08-b175-515033bcfe9d",
+      "configuredAt": 1794209313011
+    },
+    {
+      "providerId": "12308345-b9a8-44ef-99be-3fcb16794db7",
+      "info": {
+        "id": "opencode/longcat-2.5-free",
+        "displayName": "opencode/LongCat 2.5 Free"
+      },
+      "configuredModelId": "3f791299-c5bf-40b2-ac0c-fdbd69228d0b",
+      "configuredAt": 1794235020660
+    },
+    {
+      "providerId": "61bd5c2a-3d73-4ccf-a042-c664f6ddc31b",
+      "info": {
+        "id": "default",
+        "displayName": "Default (recommended)",
+        "description": "Use the default model (currently Opus 5.5) · $4/$20 per Mtok"
+      },
+      "configuredModelId": "ede8f50e-29c7-479e-b299-ce09fea9ce09",
+      "configuredAt": 1794258555946
+    },
+    {
+      "providerId": "61bd5c2a-3d73-4ccf-a042-c664f6ddc31b",
+      "info": {
+        "id": "opus",
+        "displayName": "Opus",
+        "description": "Opus 5.5 · Best for everyday, complex tasks · $4/$20 per Mtok"
+      },
+      "configuredModelId": "e05fb385-02f0-44d6-9b81-19f3b0a9e4c7",
+      "configuredAt": 1794258555948
+    },
+    {
+      "providerId": "61bd5c2a-3d73-4ccf-a042-c664f6ddc31b",
+      "info": {
+        "id": "fable",
+        "displayName": "Fable",
+        "description": "Fable 5.2 · Most capable for your hardest and longest-running tasks · $8/$40 per Mtok"
+      },
+      "configuredModelId": "dd0bed83-6a3d-4d3f-9cc5-b5e65d536cad",
+      "configuredAt": 1794258555948
+    },
+    {
+      "providerId": "61bd5c2a-3d73-4ccf-a042-c664f6ddc31b",
+      "info": {
+        "id": "sonnet",
+        "displayName": "Sonnet",
+        "description": "Sonnet 5.5 · Efficient for routine tasks · $2/$10 per Mtok"
+      },
+      "configuredModelId": "11c5d856-32d4-434d-b248-134c08162e99",
+      "configuredAt": 1794258555949
+    },
+    {
+      "providerId": "61bd5c2a-3d73-4ccf-a042-c664f6ddc31b",
+      "info": {
+        "id": "haiku",
+        "displayName": "Haiku",
+        "description": "Haiku 5.5 · Fastest for quick answers · $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100k)"
+      },
+      "configuredModelId": "37c1ed97-9732-4265-b8a3-6fb164ca8953",
+      "configuredAt": 1794258555949
+    },
+    {
+      "providerId": "5a6bb9ee-423d-4f72-9505-d1c224eac57b",
+      "info": {
+        "id": "gpt-6-luna",
+        "displayName": "6 Luna",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1050000,
+          "output": 128000,
+          "input": 922000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-09-22",
+        "cost": {
+          "input": 0.1,
+          "output": 0.5,
+          "cacheRead": 0.01,
+          "cacheWrite": 0.125
+        },
+        "description": "Fast and affordable model for easier tasks."
+      },
+      "configuredModelId": "8fb42690-e7c6-4855-9b6c-71766cfe7eaf",
+      "configuredAt": 1794259309449
+    },
+    {
+      "providerId": "5a6bb9ee-423d-4f72-9505-d1c224eac57b",
+      "info": {
+        "id": "gpt-5.6-terra",
+        "displayName": "5.6 Terra",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1050000,
+          "output": 128000,
+          "input": 922000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-07-09",
+        "cost": {
+          "input": 2,
+          "output": 12,
+          "cacheRead": 0.2
+        },
+        "description": "Older balanced model for straightforward work."
+      },
+      "configuredModelId": "ea014280-1589-49e8-944d-1b350c889b26",
+      "configuredAt": 1794259309451
+    },
+    {
+      "providerId": "5a6bb9ee-423d-4f72-9505-d1c224eac57b",
+      "info": {
+        "id": "gpt-5.6-luna",
+        "displayName": "5.6 Luna",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1050000,
+          "output": 128000,
+          "input": 922000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-07-09",
+        "cost": {
+          "input": 0.2,
+          "output": 1.2,
+          "cacheRead": 0.02
+        },
+        "description": "Older fast and efficient model."
+      },
+      "configuredModelId": "e23c270d-e4c8-4364-99ab-0d1ec7eea517",
+      "configuredAt": 1794259309451
+    },
+    {
+      "providerId": "12308345-b9a8-44ef-99be-3fcb16794db7",
+      "info": {
+        "id": "opencode/minimax-m3.1-flash-free",
+        "displayName": "opencode/MiniMax M3.1 Flash Free"
+      },
+      "configuredModelId": "36dc4942-582c-4435-a9ca-a66e31888eda",
+      "configuredAt": 1794299363475
+    },
+    {
+      "providerId": "5a6bb9ee-423d-4f72-9505-d1c224eac57b",
+      "info": {
+        "id": "gpt-6.1-sol",
+        "displayName": "6.1 Sol",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1050000,
+          "output": 128000,
+          "input": 922000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-09-29",
+        "cost": {
+          "input": 2,
+          "output": 10,
+          "cacheRead": 0.1,
+          "cacheWrite": 2.5
+        },
+        "description": "Latest workhorse model for coding and everyday work."
+      },
+      "configuredModelId": "265907ae-77f2-41fa-8559-76901dfb6f7c",
+      "configuredAt": 1794304693260
+    },
+    {
+      "providerId": "5a6bb9ee-423d-4f72-9505-d1c224eac57b",
+      "info": {
+        "id": "gpt-6-astra",
+        "displayName": "6 Astra",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1050000,
+          "output": 128000,
+          "input": 922000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-09-04",
+        "cost": {
+          "input": 10,
+          "output": 50,
+          "cacheRead": 1
+        },
+        "description": "Frontier intelligence for the most demanding work."
+      },
+      "configuredModelId": "8da90e35-ff22-4bc2-8fd7-178a59743820",
+      "configuredAt": 1794304693265
+    },
+    {
+      "providerId": "5a6bb9ee-423d-4f72-9505-d1c224eac57b",
+      "info": {
+        "id": "gpt-6-sol",
+        "displayName": "6 Sol",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1050000,
+          "output": 128000,
+          "input": 922000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-09-22",
+        "cost": {
+          "input": 2,
+          "output": 10,
+          "cacheRead": 0.2,
+          "cacheWrite": 2.5
+        },
+        "description": "Previous generation workhorse model."
+      },
+      "configuredModelId": "1cff2829-235f-47c6-84a7-b673b0618bf3",
+      "configuredAt": 1794304693266
+    },
+    {
+      "providerId": "5a6bb9ee-423d-4f72-9505-d1c224eac57b",
+      "info": {
+        "id": "gpt-5.6-sol",
+        "displayName": "5.6 Sol",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1050000,
+          "output": 128000,
+          "input": 922000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-07-09",
+        "cost": {
+          "input": 5,
+          "output": 30,
+          "cacheRead": 0.5
+        },
+        "description": "Older generation workhorse model."
+      },
+      "configuredModelId": "0d2c3853-e3a8-4697-8972-575a4d3c2cca",
+      "configuredAt": 1794304693267
+    },
+    {
+      "providerId": "5a6bb9ee-423d-4f72-9505-d1c224eac57b",
+      "info": {
+        "id": "gpt-5.5",
+        "displayName": "5.5",
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1050000,
+          "output": 128000,
+          "input": 922000
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-04-23",
+        "cost": {
+          "input": 5,
+          "output": 30,
+          "cacheRead": 0.5
+        },
+        "description": "Legacy coding model."
+      },
+      "configuredModelId": "bb2e5ca2-a30e-4410-97fc-48e984d3227c",
+      "configuredAt": 1794304693267
+    }
+  ],
+  "backends": {
+    "opencode": {
+      "enabledModels": [
+        "b208c0fe-5811-40ec-b7e8-08be68c61ab6",
+        "9edd0845-cfc0-4603-bdd1-37e3b943e76c"
+      ]
+    },
+    "claude": {
+      "enabledModels": [
+        "ede8f50e-29c7-479e-b299-ce09fea9ce09",
+        "e05fb385-02f0-44d6-9b81-19f3b0a9e4c7",
+        "dd0bed83-6a3d-4d3f-9cc5-b5e65d536cad",
+        "11c5d856-32d4-434d-b248-134c08162e99",
+        "37c1ed97-9732-4265-b8a3-6fb164ca8953"
+      ]
+    },
+    "codex": {
+      "enabledModels": [
+        "8fb42690-e7c6-4855-9b6c-71766cfe7eaf",
+        "ea014280-1589-49e8-944d-1b350c889b26",
+        "e23c270d-e4c8-4364-99ab-0d1ec7eea517"
+      ]
+    }
+  },
+  "copilotPlusCatalog": {
+    "models": [
+      {
+        "id": "copilot-plus-flash",
+        "displayName": "Copilot Plus Flash",
+        "description": "The default model: fastest responses and the most quota.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "glm-5.2",
+        "displayName": "GLM-5.2",
+        "description": "A frontier open-weight model.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "glm-5.3-flash",
+        "displayName": "GLM-5.3-Flash",
+        "description": "Fast, cost-efficient coding and long-horizon agent tasks.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "deepseek-v4-pro",
+        "displayName": "DeepSeek V4 Pro",
+        "description": "A top-tier model for the hardest reasoning and agentic tasks.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "deepseek-v4.1-flash",
+        "displayName": "DeepSeek V4.1 Flash",
+        "description": "Fast multimodal reasoning for coding and agentic tasks.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "mimo-v2.6-flash",
+        "displayName": "MiMo V2.6 Flash",
+        "description": "Cost-effective model for everyday use.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576
+        }
+      },
+      {
+        "id": "minimax-m3",
+        "displayName": "MiniMax M3",
+        "description": "Long-context model for coding and agentic tasks.",
+        "toolCall": true,
+        "reasoning": true,
+        "reasoningEfforts": [],
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 524288
+        }
+      }
+    ],
+    "defaultEnabledIds": [
+      "copilot-plus-flash",
+      "glm-5.2",
+      "glm-5.3-flash",
+      "deepseek-v4-pro",
+      "deepseek-v4.1-flash",
+      "minimax-m3"
+    ]
+  },
+  "miyoConnectionMode": "local",
+  "_keychainVaultId": "afd59c90",
+  "settingsVersion": 16
+}

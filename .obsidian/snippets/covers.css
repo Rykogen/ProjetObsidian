@@ -1,0 +1,19 @@
+/* Agrandir les couvertures et arrondir les coins */
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* Banniere plus haute */
+.banner {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+/* Home note */
+.home h1 { font-size: 2em; }
+
+/* Notes d'oeuvre */
+.oeuvre h1 { text-align: center; }
+.oeuvre .banner { margin-bottom: 1rem; }

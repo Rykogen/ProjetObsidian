@@ -38,12 +38,6 @@ from "oeuvres"
 sort file.folder asc, file.name asc
 ```
 
-## ⚔️ Les œuvres d'action
-```dataview
-list
-from "oeuvres"
-where contains(genre, "Action") or contains(genre, "[[Action]]")
-```
 
 ## ⭐ Mes favoris
 ```dataview
@@ -60,7 +54,7 @@ file.link as "Titre",
 file.ctime as "Ajoutée le"
 from "oeuvres"
 sort file.ctime desc
-limit 5
+limit 2
 ```
 
 ## 📅 Calendrier
